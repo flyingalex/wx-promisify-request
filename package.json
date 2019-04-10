@@ -1,0 +1,19 @@
+{
+  "name": "wx-promisify-request",
+  "version": "0.0.3",
+  "author": "Hulin",
+  "github": "https://github.com/flyingalex",
+  "description": "Promisify wx.request",
+  "main": "dist/wxrequest.cjs.js",
+  "module": "dist/wxrequest.esm.js",
+  "browser": "dist/wxrequest.umd.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "keywords": ["wechat mini program"],
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^1.9.3"
+  }
+}
