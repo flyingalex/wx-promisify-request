@@ -1,5 +1,10 @@
 ## wechat mini program promisify request
 
+###
+```shell
+yarn add -D wx-promisify-request
+```
+
 ### How to use it
 
 ```js
